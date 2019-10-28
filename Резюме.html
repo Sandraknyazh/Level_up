@@ -14,17 +14,18 @@
 <body>
 <h1>Вакансия: Junior frontend developer</h1>
 <img src="https://www.2do2go.ru/uploads/e27a2643e67da68d7dc5e4490b851c99.jpg" style="display: inline;" width="250" height="200" alt="Фото соискателя">
-<br>Имя: Александра <br>
-<a href="https://github.com/Sandraknyazh/Level_up" target="_blank"> Ссылка на репозиторий в GitHub</a>
-<br>Опыт работы: нет
+<div style="display: inline-block;" style="vertical-align: top;">
+    <br>Имя: Александра <br>
+    <a href="https://github.com/Sandraknyazh/Level_up" target="_blank"> Ссылка на репозиторий в GitHub</a>
+    <br>Опыт работы: нет
+<div>
+<form>
 <br><h3>Дата собеседования:</h3> <input type="date">
 <p><h3>Уровень английского: </h3>
-    <form>
         <input type="radio" name="en" value="bad" checked> Плохой
         <input type="radio" name="en" value="medium"> Средний
         <input type="radio" name="en" value="good"> Хороший
         <input type="radio" name="en" value="excellent"> Превосходный
-    </form>
 <h3>Ключевые навыки:</h3>
     <ul>
         <li>HTML</li>
@@ -32,26 +33,23 @@
         <li>JavaScript</li>
         <li>React</li>
     </ul>
-    <form>
         <input type="text" name="other" placeholder="введите навык..">
         <input type="submit" value="Добавить в список">
-    </form><br>
-    <h3 style="display: inline;">Коммуникабельность: </h3>
+    <br><h3 style="display: inline;">Коммуникабельность: </h3>
     <select>
         <option>Пугливый интроверт</option>
         <option>Нормальный амбиверт</option>
         <option>Громкий экстраверт</option>
         <option>Какой-то 4 тип</option>
     </select><br>
-<br><h3 style="display: inline;">Желаемая з/п: </h3><input type="text" name="other" placeholder="введите значение"><br>
-<br><h3 style="display: inline;">Подходит по критериям:</h3>
-    <form>
+<br><h3 style="display: inline;">Желаемая з/п: </h3><input type="number" name="other" placeholder="введите значение"><br>
+<br><h3>Подходит по критериям:</h3>
         <input type="checkbox" name="test1" value="en"> Знание английского
         <input type="checkbox" name="test2" value="money"> Оклад
         <input type="checkbox" name="test3" value="skill"> Навыки
         <input type="checkbox" name="test4" value="cookie"> Любит печенюшки
-    </form>
-<br><h3 style="display: inline;">Образование, курсы и т.п.</h3>
+</form>
+<br><h3>Образование, курсы и т.п.</h3>
 <table>
         <tr>
           <th>#</th>
