@@ -1,0 +1,33 @@
+body {background-image: url(https://cs6.pikabu.ru/post_img/big/2015/03/15/10/1426441749_1943890648.jpg);
+    font-: }
+
+h3 {color: blue;
+    font-weight:normal; /*извращаюсь*/
+    }
+
+img, h3.mur {display: inline;
+    }
+
+h3:hover {color: fuchsia;
+    border-color: #00A8C5;
+    }
+
+#right {display: inline-block;
+        vertical-align: top;
+        }
+
+.prosto {margin: 0px; 
+        font-size: 25px;
+        font-weight:bold;
+        color: orangered}
+
+thead {background-color: #FB872B;
+        }
+
+tbody {background-image: url(https://us.glasdon.com/images/news/dog-face-close-up-100.jpg);
+}
+
+h1 {background-color: blue;
+    transition-property: background-color;
+    transition-duration: 10s;
+}
