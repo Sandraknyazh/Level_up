@@ -6,7 +6,7 @@ TD, TH {
     border: 1px solid black;
         } 
 
-h3, .prosto {font-size: 20px;
+h3, .prosto, .prosto1 {font-size: 20px;
             font-weight: bold;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: rgb(47, 8, 87);
@@ -24,6 +24,10 @@ h3:hover {color: fuchsia;
 #right {display: inline-block;
         vertical-align: top;
         }
+
+.prosto1 {display: inline-block;
+        margin-top: 0px;
+}
 
 thead {background-color: #FB872B;
         }
