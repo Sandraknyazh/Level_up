@@ -1,11 +1,20 @@
-body {background-image: url(https://cs6.pikabu.ru/post_img/big/2015/03/15/10/1426441749_1943890648.jpg);
+body {background-image: url(http://ges-design.ru/library/collage/background/background-02-9.jpg);
     font-: }
 
-h3 {color: blue;
-    font-weight:normal; /*извращаюсь*/
+TD, TH {
+    padding: 3px;
+    border: 1px solid black;
+        } 
+
+h3, .prosto, .prosto1 {font-size: 20px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(47, 8, 87);
+            letter-spacing: 1px;
+            margin: 20px 0px 0px;
     }
 
-img, h3.mur {display: inline;
+img, .mur {display: inline;
     }
 
 h3:hover {color: fuchsia;
@@ -16,18 +25,38 @@ h3:hover {color: fuchsia;
         vertical-align: top;
         }
 
-.prosto {margin: 0px; 
-        font-size: 25px;
-        font-weight:bold;
-        color: orangered}
+.prosto1 {display: inline-block;
+        margin-top: 0px;
+}
 
 thead {background-color: #FB872B;
         }
 
 tbody {background-image: url(https://us.glasdon.com/images/news/dog-face-close-up-100.jpg);
-}
+        }
 
 h1 {background-color: blue;
     transition-property: background-color;
     transition-duration: 10s;
-}
+        }
+
+input[type=submit] {border: none;
+                    background: radial-gradient(#017c3b, transparent);
+        }
+
+.ukaz, label {cursor: pointer
+        }
+
+input {padding: 5px 15px;
+        margin: 10px;}
+
+.forma {width: 50%;
+        background: linear-gradient(#00A8C5, #FFFF7E);
+        position: relative;
+        margin: auto;
+        border-radius: 50px;
+        text-align: center;
+        /*list-style-position: inside;*/
+        }
+
+#spisok {margin: 0px 250px;}

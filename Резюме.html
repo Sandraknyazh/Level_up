@@ -4,52 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-        TD, TH {
-        padding: 3px;
-        border: 1px solid black;
-        } 
-        </style>
     <title>Резюме</title>
     <link href="text.css" rel="stylesheet">
 <body>
 <h1>Вакансия: Junior frontend developer</h1>
 <img src="https://www.2do2go.ru/uploads/e27a2643e67da68d7dc5e4490b851c99.jpg" width="250" height="200" alt="Фото соискателя">
 <div id="right">
-    Имя: Александра <br>
-    <a href="https://github.com/Sandraknyazh/Level_up" target="_blank"> Ссылка на репозиторий в GitHub</a>
-    <br>Опыт работы: нет
+    <div class="prosto1">Имя:</div> Александра <br>
+    <a href="https://github.com/Sandraknyazh/Level_up" target="_blank"> Ссылка на репозиторий в GitHub</a><br>
+    <div class="prosto1">Опыт работы:</div> нет
 </div>
-<form>
-<br><h3>Дата собеседования:</h3> <input type="date">
-<p><h3 class="prosto">Уровень английского: </h3>
+<div class="forma">
+    <form>
+    <h3>Дата собеседования:</h3> <input class="ukaz" type="date"><br>
+    <h3 class="prosto">Уровень английского: </h3>
         <label><input type="radio" name="en" value="bad" checked> Плохой</label>
-        <label><input type="radio" name="en" value="medium"> Средний</label>
-        <label><input type="radio" name="en" value="good"> Хороший</label>
-        <label><input type="radio" name="en" value="excellent"> Превосходный</label>
-<h3>Ключевые навыки:</h3>
+        <label><input class="ukaz" type="radio" name="en" value="medium"> Средний</label>
+        <label><input class="ukaz" type="radio" name="en" value="good"> Хороший</label>
+        <label><input class="ukaz" type="radio" name="en" value="excellent"> Превосходный</label>
+    <h3>Ключевые навыки:</h3>
+    <div id="spisok">
     <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
         <li>React</li>
-    </ul>
+    </ul></div>
         <input type="text" name="other" placeholder="введите навык..">
-        <input type="submit" value="Добавить в список"><br>
+        <input class="ukaz" type="submit" value="Добавить в список"><br>
     <br><h3 class="mur">Коммуникабельность: </h3>
-    <select>
+    <select class="ukaz">
         <option>Пугливый интроверт</option>
         <option>Нормальный амбиверт</option>
         <option>Громкий экстраверт</option>
         <option>Какой-то 4 тип</option>
     </select><br>
-<br><h3 class="mur">Желаемая з/п: </h3><input type="number" name="other" placeholder="введите значение"><br>
-<br><h3>Подходит по критериям:</h3>
+    <br><h3 class="mur">Желаемая з/п: </h3><input type="number" name="other" placeholder="введите значение">
+    <br><h3>Подходит по критериям:</h3>
         <label><input type="checkbox" name="test1" value="en"> Знание английского</label>
         <label><input type="checkbox" name="test2" value="money"> Оклад</label>
         <label><input type="checkbox" name="test3" value="skill"> Навыки</label>
         <label><input type="checkbox" name="test4" value="cookie"> Любит печенюшки</label>
-</form>
+    </form>
+</div>
 <br><h3>Образование, курсы и т.п.</h3>
 <table>
     <thead>
