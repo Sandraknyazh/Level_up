@@ -55,7 +55,7 @@ else if (x <= 0 && y >= 0) {
 else if (x <= 0 && y <= 0)
     console.log('Третья четверть');
 
-else (Проблемс);
+else console.log('проблемс');
 
 //четвертая задача
 console.log('Четвертая задача');
